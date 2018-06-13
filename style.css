@@ -1,4 +1,28 @@
+ .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 10px;
+        align-items: stretch;
+        justify-content: center;
+        
+      }
 
+  
+
+  article {
+    position: relative;
+  }
+  
+  
+  
+  .article-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
 
 h2 {
     color:#4aaaa5;
@@ -29,3 +53,4 @@ h2 {
     border-top: solid 7px;
     border-top-color: #4aaaa5;
  }
+
