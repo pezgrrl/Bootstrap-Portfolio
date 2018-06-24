@@ -1,49 +1,62 @@
- .cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        grid-gap: 10px;
-        align-items: stretch;
-        justify-content: center;
-        
-      }
+.container-fluid {
+    background-image: url("../images/dust_scratches.png");
+    border-radius: 5px;
+}
 
-  
+.row {
+    margin: 0;
+}
 
 .column {
     position: relative;
-  }
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.content img {
+    margin-bottom: 20px;
+    margin-left: 0px;
   
-  
-  
-  .article-title {
+}
+
+.content {
+	background-color: #ffffff;
+	border: 1px solid #dddddd; 
+	border-radius:5px;
+	color: #777777;
+	margin: 20px 0px 20px 0px;
+	overflow-y: auto;
+}
+
+.content h2 {
+    padding-left:20px;
+
+}
+
+.article-title {
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.2);
   }
-  
-  * {
+
+
+* {
     box-sizing: border-box;
 }
 
-.column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-}
-
 /* Clearfix (clear floats) */
+
 .row::after {
     content: "";
     clear: both;
     display: table;
 }
 
-
-
 h2 {
-    color:#4aaaa5;
+    color: #4aaaa5;
     border-bottom-style: ridge;
     padding: 15px 5px;
 }
@@ -55,7 +68,7 @@ h2 {
 
 .body {
     background-image: url("dust_scratches.png");
-    height: 100%; 
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,9 +79,8 @@ h2 {
     left: 0;
     bottom: 0;
     width: 100%;
-    height:50px;
+    height: 50px;
     background-color: #666666;
     border-top: solid 7px;
     border-top-color: #4aaaa5;
- }
-
+}
