@@ -1,77 +1,86 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<html lang="en-us">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-
-    <title>About Me</title>
-
+    <title>About | Jill Morimoto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body style="background-image:url('dust_scratches.png')"></body>
-
-
-
-
-<nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-    <a href="/" class="navbar-brand d-flex w-50 mr-auto"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
+<nav class="navbar navbar-default" id="masthead">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" id="logo">Jill Morimoto</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav  navbar-right" id="navbar-links">
+                <li><a href="index.html" id="no-border-about">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
     </div>
 </nav>
 
+<div class="container">
 
-<div class="container-fluid">
     <div class="row">
-        <section class="col-xs-12 col-med-8">
-            <h2>About Me</h2>
-            <div class="media">
-                <img class="img-responsive" src="http://lorempixel.com/output/nature-q-c-400-300-7.jpg" alt="Generic placeholder image">
-                <div class="media-body">
-                
-                        <div class="col-xs-3 col-med-8" "pull-left"></div>
-            
-                    <p>My name is Jill Morimoto. I enjoy cooking, reading, and watching TV. I am currently watching: Westworld,
-                        RuPaul's Drag Race, Pose, and Atlanta.</p>
+        <div class="col-md-8 main-section">
+            <h1>About Me</h1>
+            <div class="row">
+                <img class="pull-left img-responsive" id="profile-photo" src="./assets/images/avatar.png" alt="Jill Morimoto avatar">
 
-                    <div class="col-xs-3 col-med-8" "pull-left"></div>
-                    <p>I recently made fresh strawberry scones, as it is currently strawberry season. They were very good, I
-                        probably should have made more! I finally got the Milk Bar cookbook I ordered about a month ago,
-                        so I can now make Crack Pie!
-                    </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus
+                    nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin
+                    vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin
+                    commodo purus vitae sollicitudin consectetur.
 
-                    <div class="col-xs-3 col-med-8" "pull-left"></div>
-                    <p>I am trying to read all the Crazy Rich Asians books before the movie comes out. The last book I read
-                        was Royals, which is another American girl marries a European prince book. I finished it the day
-                        before the royal wedding.
+                    Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio.
+                    Nunc id eros iaculis, pulvinar quam eget, egestas mauris.
 
-                    </p>
-        </section>
+                    Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh
+                    tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus.</p>
+
+            </div>
         </div>
+
+        <div class="col-md-3 col-md-offset-1 sidebar">
+            <h2>Connect with Me</h2>
+
+            <a href="https://github.com/pezgrrl"><img class="social img-responsive" src="assets/images/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/jill-m-735077163/"><img class="social img-responsive" src="assets/images/linkedin.png"
+                    alt="LinkedIn"></a>
+
         </div>
+    </div>
+
+</div>
+
+
+<div class="container-fluid footer-section">
+    <div class="row">
+        <p>&copy; Created Jill Morimoto</p>
     </div>
 </div>
 
-<div class="footer">
-    <p>.</p>
-</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
